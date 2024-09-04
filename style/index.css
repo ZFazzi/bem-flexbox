@@ -1,0 +1,22 @@
+body{
+    background-color: #370617;
+    max-width: 200px;
+}
+
+element.style{
+    flex-direction:column;
+    justify-content: flex-end;
+}
+
+.square-box{
+    z-index: 10;
+    border-radious: 0 0 0 10px;
+    background-color: #063708;
+}
+
+.first-box{
+    display: flex;
+    margin: 20px;
+    padding: 20px;
+    color: rgb(102, 32, 110);
+}
