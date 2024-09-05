@@ -1,5 +1,4 @@
 body{
-    background-color: #370617;
     max-width: 200px;
 }
 
@@ -8,15 +7,34 @@ element.style{
     justify-content: flex-end;
 }
 
-.square-box{
+.flex__squares{
     z-index: 10;
-    border-radious: 0 0 0 10px;
-    background-color: #063708;
+    background-color: #370617;
+    height: 50vh; 
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex__circles{
+    margin-top: 10px;
+    z-index: 10;
+    background-color: #FAA307;
+    height: 50vh; 
+    width: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .first-box{
     display: flex;
+    border-radius: 0 0 0 10px;
     margin: 20px;
     padding: 20px;
     color: rgb(102, 32, 110);
 }
+
