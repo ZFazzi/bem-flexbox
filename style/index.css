@@ -106,10 +106,35 @@ body{
     min-height: 160px;
     margin: 10px;
     display: flex;
-    justify-content:baseline;
-    align-items:flex-end;
+    justify-content:flex-end;
+    align-items:center;
+    wrap: reverse;
     flex-direction: row;
     flex-basis: 10px;
+}
+
+.tb-one{
+    background-color: #9D0208;
+    border-radius: 15px;
+    min-width: 78px;
+    min-height: 78px;
+    margin: 10px;
+}
+
+.tb-two{
+    background-color: #9D0208;
+    border-radius: 15px;
+    min-width: 78px;
+    min-height: 78px;
+    margin: 10px;
+}
+
+.tb-three{
+    background-color: #9D0208;
+    border-radius: 15px;
+    min-width: 78px;
+    min-height: 78px;
+    margin: 10px;
 }
 
 .fourth-box{
@@ -119,10 +144,35 @@ body{
     min-height: 160px;
     margin: 10px;
     display: flex;
-    justify-content:baseline;
-    align-items:flex-end;
+    justify-content:space-around;
+    align-items:flex-start;
     flex-direction: row;
     flex-basis: 10px;
+}
+
+.fthb-one{
+    background-color: #9D0208;
+    border-radius: 15px;
+    min-width: 78px;
+    min-height: 78px;
+    margin: 10px;
+}
+
+.fthb-two{
+    background-color: #9D0208;
+    border-radius: 15px;
+    min-width: 78px;
+    min-height: 78px;
+    margin: 10px;
+}
+
+.fthb-three{
+    background-color: #9D0208;
+    border-radius: 15px;
+    min-width: 78px;
+    min-height: 78px;
+    margin: 10px;
+    align-self:flex-end;
 }
 
 .fifth-box{
