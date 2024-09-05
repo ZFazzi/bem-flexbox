@@ -24,8 +24,9 @@ body{
     padding: 25px 0;
 }
 
-/*boxes*/
+/*Boxes in squares*/
 
+/*First box in square*/
 .first-box{
     background-color: #F48C06;
     border-radius: 15px;
@@ -62,6 +63,7 @@ body{
     margin: 10px;
 }
 
+/*Second box in square*/
 .second-box{
     background-color: #F48C06;
     border-radius: 15px;
@@ -99,6 +101,7 @@ body{
     margin: 10px;
 }
 
+/*Third box in square*/
 .third-box{
     background-color: #F48C06;
     border-radius: 15px;
@@ -137,6 +140,7 @@ body{
     margin: 10px;
 }
 
+/*Fourth box in square*/
 .fourth-box{
     background-color: #F48C06;
     border-radius: 15px;
@@ -175,6 +179,7 @@ body{
     align-self:flex-end;
 }
 
+/*Fifth box in square*/
 .fifth-box{
     background-color: #F48C06;
     border-radius: 15px;
@@ -182,12 +187,44 @@ body{
     min-height: 160px;
     margin: 10px;
     display: flex;
-    justify-content:baseline;
-    align-items:flex-end;
+    justify-content:space-evenly;
+    align-items:stretch;
     flex-direction: row;
     flex-basis: 10px;
 }
 
+.fifthb-one{
+    background-color: #9D0208;
+    border-radius: 15px;
+    min-width: 78px;
+    min-height: 78px;
+    margin: 10px;
+}
+
+.fifthb-two{
+    background-color: #9D0208;
+    border-radius: 15px;
+    min-width: 78px;
+    min-height: 78px;
+    margin: 10px;
+    align-self: center;
+}
+
+.fifthb-three{
+    background-color: #9D0208;
+    border-radius: 15px;
+    min-width: 78px;
+    min-height: 78px;
+    margin: 10px;
+}
+
+.paragraph{
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}
+
+/*Sixth box in square*/
 .sixth-box{
     background-color: #F48C06;
     border-radius: 15px;
@@ -195,10 +232,35 @@ body{
     min-height: 160px;
     margin: 10px;
     display: flex;
-    justify-content:baseline;
-    align-items:flex-end;
+    justify-content:center;
+    align-items:center;
     flex-direction: row;
     flex-basis: 10px;
+}
+
+.sixb-one{
+    background-color: #9D0208;
+    border-radius: 15px;
+    min-width: 78px;
+    min-height: 78px;
+    margin: 10px;
+}
+
+.sixb-two{
+    background-color: #9D0208;
+    border-radius: 15px;
+    min-width: 78px;
+    min-height: 78px;
+    margin: 10px;
+    flex-grow: 2;
+}
+
+.sixb-three{
+    background-color: #9D0208;
+    border-radius: 15px;
+    min-width: 78px;
+    min-height: 78px;
+    margin: 10px;
 }
 
 
