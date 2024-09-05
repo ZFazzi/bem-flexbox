@@ -6,182 +6,237 @@ body{
     justify-content: flex-end;
 }*/
 
+/*The squares with squares in them*/
+
 .red-box{
     z-index: 10px;
     margin-left: 50px;
     background-color: #370617;
-    height: 50vh; 
-    width: 110vh;
+    height: 55vh; 
+    width: 100vh;
     display: flex;
     flex-direction: row;
-    justify-content:center;
-    align-items:baseline;
+    justify-content:space-evenly;
+    align-items:center;
     position: relative;
     flex-wrap: wrap;
     min-height: 60%;
+    padding: 25px 0;
 }
+
+/*boxes*/
+
+.first-box{
+    background-color: #F48C06;
+    border-radius: 15px;
+    min-width: 468px;
+    min-height: 160px;
+    margin: 10px;
+    display: flex;
+    justify-content:baseline;
+    align-items:flex-end;
+    flex-direction: row;
+    flex-basis: 10px;
+}
+.fb-one{
+    background-color: #9D0208;
+    border-radius: 15px;
+    min-width: 78px;
+    min-height: 78px;
+    margin: 10px;
+}
+
+.fb-two{
+    background-color: #9D0208;
+    border-radius: 15px;
+    min-width: 78px;
+    min-height: 78px;
+    margin: 10px;
+}
+
+.fb-three{
+    background-color: #9D0208;
+    border-radius: 15px;
+    min-width: 78px;
+    min-height: 78px;
+    margin: 10px;
+}
+
+.second-box{
+    background-color: #F48C06;
+    border-radius: 15px;
+    min-width: 468px;
+    min-height: 160px;
+    margin: 10px;
+    display: flex;
+    justify-content:center;
+    align-items:stretch;
+    flex-direction: row;
+    flex-basis: 10px;
+}
+
+.sb-one{
+    background-color: #9D0208;
+    border-radius: 15px;
+    min-width: 78px;
+    min-height: 78px;
+    margin: 10px;
+}
+
+.sb-two{
+    background-color: #9D0208;
+    border-radius: 15px;
+    min-width: 78px;
+    min-height: 78px;
+    margin: 10px;
+}
+
+.sb-three{
+    background-color: #9D0208;
+    border-radius: 15px;
+    min-width: 78px;
+    min-height: 78px;
+    margin: 10px;
+}
+
+.third-box{
+    background-color: #F48C06;
+    border-radius: 15px;
+    min-width: 468px;
+    min-height: 160px;
+    margin: 10px;
+    display: flex;
+    justify-content:baseline;
+    align-items:flex-end;
+    flex-direction: row;
+    flex-basis: 10px;
+}
+
+.fourth-box{
+    background-color: #F48C06;
+    border-radius: 15px;
+    min-width: 468px;
+    min-height: 160px;
+    margin: 10px;
+    display: flex;
+    justify-content:baseline;
+    align-items:flex-end;
+    flex-direction: row;
+    flex-basis: 10px;
+}
+
+.fifth-box{
+    background-color: #F48C06;
+    border-radius: 15px;
+    min-width: 468px;
+    min-height: 160px;
+    margin: 10px;
+    display: flex;
+    justify-content:baseline;
+    align-items:flex-end;
+    flex-direction: row;
+    flex-basis: 10px;
+}
+
+.sixth-box{
+    background-color: #F48C06;
+    border-radius: 15px;
+    min-width: 468px;
+    min-height: 160px;
+    margin: 10px;
+    display: flex;
+    justify-content:baseline;
+    align-items:flex-end;
+    flex-direction: row;
+    flex-basis: 10px;
+}
+
+
+/*The squares with dots in them*/
 
 .yellow-box{
     margin-top: 10px;
     margin-left: 50px;
     z-index: 10;
     background-color: #FAA307;
-    height: 50vh; 
-    width: 110vh;
+    height: 55vh; 
+    width: 100vh;
     display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items:left;
+    flex-direction: column;
+    justify-content:flex-start;
+    align-items:center;
+    position:absolute;
     flex-wrap: wrap;
     min-height: 60%;
+    padding: 25px 0;
 }
-
-/*The squares with squares in them*/
-
-.first-box{
-    background-color: #F48C06;
-    border-radius: 15px;
-    min-width: 400px;
-    min-height: 100px;
-    margin: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items:flex-start;
-    flex-direction: column;
-    flex-basis: 180px;
-}
-
-.second-box{
-    background-color: #F48C06;
-    border-radius: 15px;
-    min-width: 400px;
-    min-height: 100px;
-    margin: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items:flex-start;
-    flex-direction: column;
-    flex-basis: 180px;
-}
-
-.third-box{
-    background-color: #F48C06;
-    border-radius: 15px;
-    min-width: 400px;
-    min-height: 100px;
-    margin: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items:flex-start;
-    flex-direction: column;
-    flex-basis: 180px;
-}
-
-.fourth-box{
-    background-color: #F48C06;
-    border-radius: 15px;
-    min-width: 400px;
-    min-height: 100px;
-    margin: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items:flex-start;
-    flex-direction: column;
-    flex-basis: 180px;
-}
-
-.fifth-box{
-    background-color: #F48C06;
-    border-radius: 15px;
-    min-width: 400px;
-    min-height: 100px;
-    margin: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items:flex-start;
-    flex-direction: column;
-    flex-basis: 180px;
-}
-
-.sixth-box{
-    background-color: #F48C06;
-    border-radius: 15px;
-    min-width: 400px;
-    min-height: 100px;
-    margin: 10px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items:center;
-    flex-direction: column;
-    flex-basis: 180px;
-}
-
-
-
-
-/*The squares with dots in them*/
 
 .first-box-dots{
     background-color: #03071E;
     border-radius: none;
-    min-width: 270px;
-    min-height: 50px;
+    min-width: 273px;
+    min-height: 220px;
     margin: 10px;
     display: flex;
     justify-content: space-evenly;
     align-items:center;
+    flex-direction: column;
     flex-basis: 180px;
 }
 
 .second-box-dots{
     background-color: #6A040F;
     border-radius: none;
-    min-width: 270px;
-    min-height: 50px;
+    min-width: 273px;
+    min-height: 220px;
     margin: 10px;
     display: flex;
     justify-content: space-evenly;
     align-items:center;
+    flex-direction: column;
     flex-basis: 180px;
 }
 
 .third-box-dots{
-    background-color: #03071E;
+    background-color: #6A040F;
     border-radius: none;
-    min-width: 270px;
-    min-height: 50px;
+    min-width: 273px;
+    min-height: 220px;
     margin: 10px;
     display: flex;
     justify-content: space-evenly;
     align-items:center;
+    flex-direction: column;
     flex-basis: 180px;
 }
 
 .fourth-box-dots{
-    background-color: #6A040F;
+    background-color: #03071E;
     border-radius: none;
-    min-width: 270px;
-    min-height: 50px;
+    min-width: 273px;
+    min-height: 220px;
     margin: 10px;
     display: flex;
     justify-content: space-evenly;
     align-items:center;
+    flex-direction: column;
     flex-basis: 180px;
 }
 
 .fifth-box-dots{
     background-color: #03071E;
     border-radius: none;
-    min-width: 270px;
-    min-height: 50px;
+    min-width: 273px;
+    min-height: 220px;
     margin: 10px;
     display: flex;
     justify-content: space-evenly;
     align-items:center;
+    flex-direction: column;
     flex-basis: 180px;
 }
 
-
+/*
 .container {
     border: 5px dotted coral;
     position: relative;
@@ -209,7 +264,7 @@ body{
     align-items: center;
     flex-basis: 180px;
 }
-
+*/
 .first {
     /*
     flex-grow: 2;
