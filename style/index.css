@@ -182,7 +182,7 @@
     min-width: 78px;
     min-height: 78px;
     margin: 10px;
-    flex-grow: 2;
+    flex-grow: 0.7;
 }
 
 .sixb{
@@ -214,6 +214,15 @@
     padding: 25px 0;
 }
 
+.dot {
+   
+    background-color: #748CAB;
+    border-radius: 50%;
+    min-width: 50px;
+    min-height: 50px;
+    margin: 10px;
+}
+
 .first-box-dots{
     background-color: #03071E;
     border-radius: none;
@@ -222,21 +231,11 @@
     margin: 10px;
     display: flex;
     justify-content:baseline;
-    align-items:flex-end;
+    align-content:flex-start;
     flex-direction: row;
     flex-basis: 10px;
     flex-wrap:wrap;
 }
-
-.dot {
-   
-    background-color: #748CAB;
-    border-radius: 50%;
-    min-width: 50px;
-    min-height: 50px;
-    margin: 10px;
-  }
-
 
 .second-box-dots{
     background-color: #6A040F;
