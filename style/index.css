@@ -72,7 +72,7 @@
     display: flex;
     justify-content:flex-end;
     align-items:center;
-    wrap: reverse;
+    flex-wrap: reverse;
     flex-direction: row;
     flex-basis: 10px;
 }
@@ -244,28 +244,28 @@
     min-height: 220px;
     margin: 10px;
     display: flex;
-    justify-content: space-evenly;
-    align-items:center;
+    justify-content:flex-end;
+    align-content:flex-start;
     flex-direction: row;
-    flex-basis: 180px;
-    flex-wrap:wrap;
+    flex-basis: 10px;
+    flex-wrap:wrap-reverse;
 }
 
-.third-box-dots{
+.third-box-dots{                    /*couldn't figure this one out unfortunately*/
     background-color: #03071E;
     border-radius: none;
     min-width: 273px;
     min-height: 220px;
     margin: 10px;
     display: flex;
-    justify-content: space-evenly;
-    align-items:center;
+    justify-content:space-between;
+    align-content:space-between;
     flex-direction: row;
-    flex-basis: 180px;
+    flex-basis: 10px;
     flex-wrap:wrap;
 }
 
-.fourth-box-dots{
+.fourth-box-dots{                           
     background-color: #6A040F;
     border-radius: none;
     min-width: 273px;
@@ -286,61 +286,11 @@
     min-height: 220px;
     margin: 10px;
     display: flex;
-    justify-content: space-between;
-    align-items:center;
+    justify-content: center;
+    align-content:center;
     flex-direction: row;
     flex-basis: 180px;
     flex-wrap:wrap;
 }
 
-/*
-.container {
-    border: 5px dotted coral;
-    position: relative;
-    width: 70%;
-    min-height: 50%;
-    padding: 25px 0;
-    display: flex;
-    justify-content: flex-start;
 
-    align-items: flex-start;
-
-    flex-direction: row; 
- 
-}
-
-.card {
-    background-color: darkcyan;
-    border: 5px solid black;
-    border-radius: 15px;
-    min-width: 100px;
-    min-height: 100px;
-    margin: 10px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-basis: 180px;
-}
-*/
-.first {
-    /*
-    flex-grow: 2;
-    order: 1; */
-}
-
-.last {
-    /*order:-1*/
-}
-
-.second {
-    background-color: darkgrey;
-}
-
-.large {
-    flex-wrap: wrap;
-    /*
-    flex-wrap: nowrap;
-    flex-wrap: wrap-reverse;
-    */
-    min-height: 60%;
-}
